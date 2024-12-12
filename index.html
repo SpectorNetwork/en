@@ -8,67 +8,91 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <!-- Header -->
   <header>
-    <nav>
-      <div class="logo">SpectorNet</div>
-      <ul class="nav-links">
-        <li><a href="#about">About</a></li>
-        <li><a href="#blog">Blog</a></li>
-        <li><a href="#podcast">Podcast</a></li>
-        <li><a href="#youtube">YouTube</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
+    <nav class="navbar">
+      <div class="container">
+        <div class="logo">SpectorNet</div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#podcast">Podcast</a></li>
+          <li><a href="#youtube">YouTube</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
     </nav>
   </header>
 
+  <!-- Hero Section -->
   <section class="hero">
-    <h1>Welcome to SpectorNet</h1>
-    <p>Your gateway to understanding the world of cybersecurity!</p>
-    <p>Ever wondered how hackers think? We break down hackers' tactics, tools, and strategies so you can stay one step ahead.</p>
-    <a href="#subscribe" class="cta-button">Subscribe Now</a>
-  </section>
-
-  <section class="offerings" id="about">
-    <h2>What We Offer</h2>
-    <div class="offerings-container">
-      <div class="offering">
-        <h3>Blog</h3>
-        <p>Stay up-to-date with the latest cybersecurity news and strategies.</p>
-      </div>
-      <div class="offering">
-        <h3>Podcast</h3>
-        <p>Deep dive into cybersecurity topics, featuring experts and real-world stories.</p>
-      </div>
-      <div class="offering">
-        <h3>YouTube</h3>
-        <p>Watch our videos for hands-on demonstrations and cybersecurity breakdowns.</p>
+    <div class="container">
+      <h1>Welcome to SpectorNet</h1>
+      <p>Your gateway to understanding the world of cybersecurity!</p>
+      <p>We break down hackers' tactics, tools, and strategies so you can stay one step ahead.</p>
+      <div class="cta-buttons">
+        <a href="#subscribe" class="cta-button">Subscribe Now</a>
+        <a href="#about" class="cta-outline-button">Learn More</a>
       </div>
     </div>
   </section>
 
-  <section class="featured" id="blog">
-    <h2>Latest Blog Post</h2>
-    <p>Title of the latest blog post <a href="#">Read more</a></p>
+  <!-- What We Offer Section -->
+  <section class="offerings" id="about">
+    <div class="container">
+      <h2>What We Offer</h2>
+      <div class="offerings-grid">
+        <div class="offering">
+          <h3>Blog</h3>
+          <p>Stay up-to-date with the latest cybersecurity news and strategies.</p>
+        </div>
+        <div class="offering">
+          <h3>Podcast</h3>
+          <p>Deep dive into cybersecurity topics, featuring experts and real-world stories.</p>
+        </div>
+        <div class="offering">
+          <h3>YouTube</h3>
+          <p>Watch our videos for hands-on demonstrations and cybersecurity breakdowns.</p>
+        </div>
+      </div>
+    </div>
   </section>
 
-  <section class="featured" id="podcast">
-    <h2>Latest Podcast Episode</h2>
-    <p>Title of the latest podcast episode <a href="#">Listen Now</a></p>
+  <!-- Featured Sections -->
+  <section class="featured-section" id="blog">
+    <div class="container">
+      <h2>Latest Blog Post</h2>
+      <p>Discover insights from our latest blog post. <a href="#">Read more</a></p>
+    </div>
   </section>
 
-  <section class="featured" id="youtube">
-    <h2>Latest YouTube Video</h2>
-    <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <p><a href="https://www.youtube.com/channel/YOUR_CHANNEL_ID" target="_blank">Visit our YouTube Channel</a></p>
+  <section class="featured-section" id="podcast">
+    <div class="container">
+      <h2>Latest Podcast Episode</h2>
+      <p>Listen to our newest podcast episode. <a href="#">Listen Now</a></p>
+    </div>
   </section>
 
+  <section class="featured-section" id="youtube">
+    <div class="container">
+      <h2>Latest YouTube Video</h2>
+      <div class="video-wrapper">
+        <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <p><a href="https://www.youtube.com/channel/YOUR_CHANNEL_ID" target="_blank">Visit our YouTube Channel</a></p>
+    </div>
+  </section>
+
+  <!-- Footer -->
   <footer>
-    <p>© 2024 SpectorNet - All rights reserved</p>
-    <ul class="social-links">
-      <li><a href="#">LinkedIn</a></li>
-      <li><a href="#">Twitter</a></li>
-      <li><a href="#">Instagram</a></li>
-    </ul>
+    <div class="container">
+      <p>© 2024 SpectorNet - All rights reserved</p>
+      <ul class="social-links">
+        <li><a href="#">LinkedIn</a></li>
+        <li><a href="#">Twitter</a></li>
+        <li><a href="#">Instagram</a></li>
+      </ul>
+    </div>
   </footer>
 </body>
 </html>
